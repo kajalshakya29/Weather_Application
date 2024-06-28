@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecasting Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+<style>
+body {
+  background-image: url("images/pexels-tahir-shaw-186980.jpg");
+  background-color: rgba(255, 255, 128, 0.55); 
+  background-attachment: fixed;
+  background-size: cover;
+}
+   h1, p {
+            color: black; /* change text color of h1 and p elements to red */
+        }
+
+
+</style>
+</head>
+<body>
+
+<div style="color:white; text-align:center">
+
+<!--img src="images\logo.png" style=" height: auto;width: auto;filter: drop-shadow(10px 10px 10px black);"-->
+    <h1>Welcome to Forecast 24X7</h1>
+ 
+    <p>Your Daily Projection Companion</p>
+     <form action="MyServlet1" method="post" class="searchInput">
+            <input type="text" placeholder="Enter City Name" id="searchInput"  name="city"/>
+            <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>    
+ </div>
+ 
+</body>
+</html>
